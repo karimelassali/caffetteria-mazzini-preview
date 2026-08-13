@@ -16,22 +16,22 @@ import { useState } from "react";
 
 const gallery = [
   {
-    src: "/manus-storage/caffetteria_mazzini_exterior_1ea1824b.jpg",
+    src: "/assets/caffetteria_mazzini_exterior.jpg",
     alt: "Exterior entrance of Caffetteria Mazzini",
     label: "Via Mazzini, 3",
   },
   {
-    src: "/manus-storage/caffetteria_mazzini_food_1_c65f1114.jpg",
+    src: "/assets/caffetteria_mazzini_food_1.jpg",
     alt: "Aperitivo spread with sandwiches and small plates",
     label: "Aperitivo hour",
   },
   {
-    src: "/manus-storage/caffetteria_mazzini_exterior_2_e7bf984b.jpg",
+    src: "/assets/caffetteria_mazzini_exterior_2.jpg",
     alt: "Caffetteria Mazzini storefront on the street",
     label: "A familiar corner",
   },
   {
-    src: "/manus-storage/caffetteria_mazzini_food_2_65f8073b.jpg",
+    src: "/assets/caffetteria_mazzini_food_2.jpg",
     alt: "Café food and aperitivo plates on a table",
     label: "Small kitchen",
   },
@@ -80,7 +80,7 @@ export default function Home() {
 
       <main id="top">
         <section className="relative min-h-[720px] overflow-hidden bg-[#34251f] text-[#fff8ed] lg:min-h-[790px]">
-          <img src="/manus-storage/mazzini-hero_625aaa79.jpg" alt="Espresso and aperitivo at a café table" className="absolute inset-0 h-full w-full object-cover opacity-90" />
+          <img src="./assets/mazzini-hero.jpg" alt="Espresso and aperitivo at a café table" className="absolute inset-0 h-full w-full object-cover opacity-90" />
           <div className="absolute inset-0 bg-[linear-gradient(90deg,rgba(52,37,31,0.88)_0%,rgba(52,37,31,0.58)_38%,rgba(52,37,31,0.08)_78%)]" />
           <div className="relative mx-auto flex min-h-[720px] max-w-[1380px] items-end px-5 pb-20 pt-36 sm:px-8 lg:min-h-[790px] lg:px-12 lg:pb-28">
             <div className="max-w-2xl animate-[rise_700ms_ease-out_both]">
@@ -101,7 +101,7 @@ export default function Home() {
             <div className="lg:pt-7"><p className="eyebrow">01 / La pausa giusta</p><h2 className="font-display mt-5 max-w-sm text-5xl font-semibold leading-[0.95] tracking-[-0.05em] sm:text-6xl">Il quartiere, servito con cura.</h2></div>
             <div className="grid gap-8 sm:grid-cols-[1fr_0.8fr] sm:items-end"><p className="max-w-lg text-lg leading-8 text-[#6d574a]">Mazzini è il posto dove il primo caffè incontra il pranzo di lavoro e l’aperitivo arriva senza bisogno di invito. Una caffetteria di quartiere con una cucina piccola e idee grandi quanto la fame.</p><div className="border-l-2 border-[#c95f3d] pl-5"><p className="font-display text-3xl italic leading-tight text-[#c95f3d]">“Coffee first.<br />Aperitivo later.”</p></div></div>
           </div>
-          <div className="mt-16 grid gap-5 md:grid-cols-[1.2fr_0.8fr]"><div className="overflow-hidden rounded-[2px] bg-[#dfc4ad]"><img src="/manus-storage/mazzini-coffee_ab282a57.jpg" alt="Espresso and brioche at Caffetteria Mazzini" className="h-[420px] w-full object-cover transition duration-500 hover:scale-[1.03] sm:h-[520px]" /></div><div className="flex flex-col justify-between bg-[#ead8c6] p-7 sm:p-9"><div><Sparkles className="text-[#c95f3d]" size={22} /><p className="mt-12 font-display text-4xl leading-none tracking-[-0.04em]">Una pausa<br /><em className="font-normal">fatta bene.</em></p></div><div className="mt-12 border-t border-[#34251f]/20 pt-5 text-sm leading-6 text-[#6d574a]">Colazioni, piatti veloci, panini, piadine e aperitivi da condividere.</div></div></div>
+          <div className="mt-16 grid gap-5 md:grid-cols-[1.2fr_0.8fr]"><div className="overflow-hidden rounded-[2px] bg-[#dfc4ad]"><img src="./assets/mazzini-coffee.jpg" alt="Espresso and brioche at Caffetteria Mazzini" className="h-[420px] w-full object-cover transition duration-500 hover:scale-[1.03] sm:h-[520px]" /></div><div className="flex flex-col justify-between bg-[#ead8c6] p-7 sm:p-9"><div><Sparkles className="text-[#c95f3d]" size={22} /><p className="mt-12 font-display text-4xl leading-none tracking-[-0.04em]">Una pausa<br /><em className="font-normal">fatta bene.</em></p></div><div className="mt-12 border-t border-[#34251f]/20 pt-5 text-sm leading-6 text-[#6d574a]">Colazioni, piatti veloci, panini, piadine e aperitivi da condividere.</div></div></div>
         </section>
 
         <section id="menu" className="bg-[#34251f] px-5 py-20 text-[#fff8ed] sm:px-8 lg:px-12 lg:py-28">
